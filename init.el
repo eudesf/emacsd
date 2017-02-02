@@ -4,7 +4,7 @@
 (package-initialize)
 
 ;; here are the packages I'm using
-(setq package-list '(haskell-mode helm))
+(setq package-list '(haskell-mode helm cider paredit yasnippet))
 
 ;; fetch the list of packages available 
 (unless package-archive-contents
